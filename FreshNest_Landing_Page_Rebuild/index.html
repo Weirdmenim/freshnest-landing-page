@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FreshNest is the small-space freshness brand for Lagos living. Odor-lock support, leak-resistant material, and easy restock for busy weeks." />
+  <title>FreshNest | Small-space freshness for Lagos living</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!--
+    ASSET MAPPING
+    Navbar logo = FreshNest_logo_autotrace(3).svg
+    Hero main image = Landing_Page_Assets/ChatGPT Image Apr 23, 2026, 02_36_20 PM.png
+    Hero floating product render = Landing_Page_Assets/imglp1.png
+    Problem support image = Landing_Page_Assets/img12.png
+    Why FreshNest icons = Landing_Page_Assets/img16.png, Landing_Page_Assets/img25.png, Landing_Page_Assets/img22.png
+    Lifestyle section image = Landing_Page_Assets/img15.png
+    Starter Pack image = banner1(6).png
+    Email success card = Landing_Page_Assets/img9.png
+    Order summary image = Landing_Page_Assets/imglp2.png
+    Order confirmation card = Landing_Page_Assets/img10.png
+    Comparison support image = Landing_Page_Assets/img12.png
+    Testimonial avatars = Landing_Page_Assets/imglp3.png, Landing_Page_Assets/imglp4.png, Landing_Page_Assets/imglp5.png
+    Monthly Restock image = Landing_Page_Assets/imglp6.png
+    Fresh Home Bundle / reset section image = banner2(6).png
+    Final CTA support image = Landing_Page_Assets/imglp1.png
+    Supporting UI icons = Landing_Page_Assets/img20.png, Landing_Page_Assets/img18.png, Landing_Page_Assets/img2.png
+    Missing dedicated comparison illustration = none attached, so the comparison section is built as a text-first comparison table with a related compact-kitchen support image.
+  -->
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="FreshNest home">
+        <img src="FreshNest_logo_autotrace(3).svg" alt="FreshNest logo" class="brand__logo" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="desktop-nav" aria-label="Primary">
+        <a href="#why-freshnest">Why FreshNest</a>
+        <a href="#starter-pack">Starter Pack</a>
+        <a href="#faq">FAQ</a>
+        <a class="button button--primary button--small" href="#starter-pack">Shop the Starter Pack</a>
+      </nav>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation">
+      <a href="#why-freshnest">Why FreshNest</a>
+      <a href="#starter-pack">Starter Pack</a>
+      <a href="#faq">FAQ</a>
+      <a class="button button--primary" href="#starter-pack">Shop the Starter Pack</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Small-space freshness for Lagos living</p>
+          <h1>Your home should smell like home.</h1>
+          <p class="hero__subcopy">
+            FreshNest helps small Lagos homes stay fresh, neat, and under control with odor-lock support,
+            leak-resistant material, and easier restock for busy weeks.
+          </p>
+
+          <div class="hero__proofs" aria-label="Quick proof points">
+            <span>odor-lock support</span>
+            <span>leak-resistant material</span>
+            <span>made for smaller homes</span>
+          </div>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#starter-pack">Shop the Starter Pack</a>
+            <a class="button button--secondary" href="#why-freshnest">See Why FreshNest Works</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__image-card card">
+            <img
+              src="Landing_Page_Assets/ChatGPT Image Apr 23, 2026, 02_36_20 PM.png"
+              alt="FreshNest in a warm Lagos kitchen with a pull-out bin and premium product placement"
+            />
+          </div>
+
+          <div class="hero__product-chip card">
+            <img
+              src="Landing_Page_Assets/imglp1.png"
+              alt="FreshNest product render showing the approved packaging and roll style"
+            />
+            <div>
+              <strong>FreshNest Starter Pack</strong>
+              <p>3 rolls • ₦9,500 • 10% off first order</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem section section--soft" id="problem">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">The sharper home truth</p>
+          <h2>The problem is not your bin. It is your bag.</h2>
+          <p>
+            In smaller homes, odor travels faster, leaks feel worse, mess stays visible, and running out at the wrong
+            time feels more urgent.
+          </p>
+        </div>
+
+        <div class="problem__layout">
+          <div class="problem__cards grid-four">
+            <article class="card problem-card">
+              <span class="card-number">01</span>
+              <h3>Odor travels faster</h3>
+              <p>In tighter kitchens, one weak bag can affect how the whole space feels.</p>
+            </article>
+
+            <article class="card problem-card">
+              <span class="card-number">02</span>
+              <h3>Leaks feel worse</h3>
+              <p>Busy mornings get more stressful when a bag tears or leaves cleanup behind.</p>
+            </article>
+
+            <article class="card problem-card">
+              <span class="card-number">03</span>
+              <h3>Mess is more visible</h3>
+              <p>When your home is compact, small kitchen issues never stay small for long.</p>
+            </article>
+
+            <article class="card problem-card">
+              <span class="card-number">04</span>
+              <h3>Restocking feels urgent</h3>
+              <p>In shared flats and one-bedroom homes, running low becomes a problem quickly.</p>
+            </article>
+          </div>
+
+          <aside class="problem__support card">
+            <img
+              src="Landing_Page_Assets/img12.png"
+              alt="Compact kitchen pull-out bin showing the kind of small-space setup FreshNest is made for"
+            />
+            <div class="problem__support-copy">
+              <strong>Made for real small-home kitchens</strong>
+              <p>FreshNest fits the kind of compact, everyday setups where freshness matters more.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits section" id="why-freshnest">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Why FreshNest</p>
+          <h2>Built for the kind of freshness smaller homes need</h2>
+          <p>
+            FreshNest is not framed like a generic bag upgrade. It is a practical small-space freshness essential for
+            Lagos living.
+          </p>
+        </div>
+
+        <div class="benefits__grid grid-three">
+          <article class="card benefit-card">
+            <img src="Landing_Page_Assets/img16.png" alt="Odor-lock support icon" class="icon" />
+            <h3>Odor-lock support</h3>
+            <p>Helps reduce the kind of smell spread that becomes obvious faster in small kitchens.</p>
+          </article>
+
+          <article class="card benefit-card">
+            <img src="Landing_Page_Assets/img25.png" alt="Leak resistance icon" class="icon" />
+            <h3>Leak-resistant everyday use</h3>
+            <p>Designed to lower the cleanup stress that cheap bags create during normal home use.</p>
+          </article>
+
+          <article class="card benefit-card">
+            <img src="Landing_Page_Assets/img22.png" alt="Small-home suitability icon" class="icon" />
+            <h3>Small-space freshness</h3>
+            <p>Made for smaller homes that need to feel fresh, neat, and visitor-ready more often.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="lifestyle section section--soft" id="lifestyle">
+      <div class="container lifestyle__grid">
+        <div class="lifestyle__media card">
+          <img
+            src="Landing_Page_Assets/img15.png"
+            alt="Woman using FreshNest in a warm kitchen, showing the product in a believable Lagos home context"
+          />
+        </div>
+
+        <div class="lifestyle__content">
+          <p class="eyebrow">More than disposal</p>
+          <h2>FreshNest helps small Lagos homes feel calmer and more under control</h2>
+          <p>
+            The product logic matters, but the real outcome is how your home feels. FreshNest is for people who want the
+            kitchen to stay easier to manage during busy weeks.
+          </p>
+
+          <ul class="check-list">
+            <li>Helps keep the kitchen fresher in tighter spaces</li>
+            <li>Supports a more visitor-ready feel without drama</li>
+            <li>Makes everyday home care feel simpler to keep up with</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="starter section" id="starter-pack">
+      <div class="container starter__grid">
+        <div class="starter__content">
+          <p class="eyebrow eyebrow--light">Starter Pack • first-visit priority offer</p>
+          <h2>Start with the FreshNest Starter Pack</h2>
+          <p>
+            This is the low-friction first switch. One clear pack, one clear price, and a first-order offer that makes
+            trial easier.
+          </p>
+
+          <div class="offer-card card card--highlight">
+            <div class="offer-card__top">
+              <div>
+                <span class="offer-label">FreshNest Starter Pack</span>
+                <h3>3 rolls</h3>
+              </div>
+              <div class="offer-price">
+                <strong>₦9,500</strong>
+                <span>10% off first order</span>
+              </div>
+            </div>
+
+            <p class="offer-capacity">49.2L • small-home ready</p>
+
+            <ul class="offer-points">
+              <li>odor-lock support for tighter kitchens</li>
+              <li>leak-resistant material for everyday use</li>
+              <li>easy first try for one-bedroom and shared-flat living</li>
+            </ul>
+
+            <a class="button button--primary button--wide" href="#order">Get 10% Off My First Pack</a>
+          </div>
+        </div>
+
+        <div class="starter__media card card--media">
+          <img src="banner1(6).png" alt="Approved FreshNest Starter Pack banner showing the product, price, and first-order offer" />
+        </div>
+      </div>
+    </section>
+
+    <section class="email-capture section section--soft" id="email-capture">
+      <div class="container email-capture__grid">
+        <div class="email-capture__content">
+          <p class="eyebrow">For non-buyers and careful first-timers</p>
+          <h2>Get 10% off your first order</h2>
+          <p>
+            Not ready to order yet? Drop your email and get the FreshNest first-order code before your next kitchen restock.
+          </p>
+
+          <form class="stack-form" id="email-form">
+            <label class="sr-only" for="capture-email">Email address</label>
+            <input id="capture-email" name="email" type="email" placeholder="Enter your email" required />
+            <button class="button button--primary" type="submit">Send My First-Order Code</button>
+          </form>
+
+          <div class="inline-return-link">
+            <a href="#starter-pack">Go back to the Starter Pack</a>
+          </div>
+
+          <div class="message-card" id="email-success" aria-live="polite" hidden>
+            <img src="Landing_Page_Assets/img20.png" alt="Email delivery icon" class="message-card__icon" />
+            <div>
+              <strong>Check your email.</strong>
+              <p>Your FreshNest first-order code is on the way.</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="email-capture__visual card">
+          <img src="Landing_Page_Assets/img9.png" alt="Approved FreshNest email success-state card" />
+        </aside>
+      </div>
+    </section>
+
+    <section class="order section" id="order">
+      <div class="container order__grid">
+        <aside class="order__summary card">
+          <div class="order__summary-image card card--media-small">
+            <img src="Landing_Page_Assets/imglp2.png" alt="FreshNest product render used for the selected Starter Pack summary" />
+          </div>
+
+          <div class="order__summary-copy">
+            <span class="offer-label">Selected offer</span>
+            <h3>FreshNest Starter Pack</h3>
+            <p class="order__summary-price">3 rolls • ₦9,500</p>
+            <ul class="offer-points offer-points--compact">
+              <li>10% off first order</li>
+              <li>49.2L small-home ready</li>
+              <li>Best for first-time trial</li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="order__form-area">
+          <p class="eyebrow">Checkout-lite</p>
+          <h2>Place your Starter Pack request</h2>
+          <p>
+            Keep it simple. Add your details and we will follow up by email or WhatsApp with confirmation and next steps.
+          </p>
+
+          <form class="order-form" id="order-form">
+            <div class="form-grid">
+              <label>
+                <span>Full name</span>
+                <input type="text" name="fullName" placeholder="Your full name" required />
+              </label>
+
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="your@email.com" required />
+              </label>
+
+              <label>
+                <span>Phone</span>
+                <input type="tel" name="phone" placeholder="0800 000 0000" required />
+              </label>
+
+              <label>
+                <span>Delivery area</span>
+                <input type="text" name="area" placeholder="Yaba, Lekki, Surulere" required />
+              </label>
+
+              <label class="form-grid__full">
+                <span>Address</span>
+                <textarea name="address" rows="4" placeholder="Delivery address" required></textarea>
+              </label>
+            </div>
+
+            <button class="button button--primary button--wide" type="submit">Submit Starter Pack Order</button>
+          </form>
+
+          <div class="order-confirmation card" id="order-confirmation" aria-live="polite" hidden>
+            <div class="order-confirmation__copy">
+              <img src="Landing_Page_Assets/img18.png" alt="Order confirmation icon" class="message-card__icon" />
+              <div>
+                <strong>Your Starter Pack order has been received.</strong>
+                <p>Watch your email or WhatsApp for confirmation and next steps.</p>
+              </div>
+            </div>
+            <img src="Landing_Page_Assets/img10.png" alt="Approved FreshNest order confirmation state card" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comparison section section--soft" id="comparison">
+      <div class="container comparison__grid">
+        <div>
+          <div class="section-head">
+            <p class="eyebrow">Why people switch</p>
+            <h2>Regular Bags vs FreshNest</h2>
+            <p>
+              This section is built to answer the practical question behind first purchase: is FreshNest really worth switching to?
+            </p>
+          </div>
+
+          <div class="comparison-table card">
+            <div class="comparison-table__head comparison-table__head--muted">
+              <span>Regular Bags</span>
+              <span>FreshNest</span>
+            </div>
+
+            <div class="comparison-row">
+              <span>Odor control in smaller homes</span>
+              <span>Often weak once the bin fills</span>
+              <span>Built around odor-lock support</span>
+            </div>
+
+            <div class="comparison-row">
+              <span>Leak resistance</span>
+              <span>Tears and cleanup happen faster</span>
+              <span>Leak-resistant everyday material</span>
+            </div>
+
+            <div class="comparison-row">
+              <span>Stress during disposal</span>
+              <span>More worry during carry-out</span>
+              <span>Lower-friction everyday use</span>
+            </div>
+
+            <div class="comparison-row">
+              <span>Suitability for compact kitchens</span>
+              <span>Feels like a generic fit</span>
+              <span>Made for smaller homes</span>
+            </div>
+
+            <div class="comparison-row comparison-row--last">
+              <span>Low-friction first trial</span>
+              <span>No reason to switch</span>
+              <span>Starter Pack + 10% off first order</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="comparison__visual card">
+          <img src="Landing_Page_Assets/img12.png" alt="Compact kitchen support visual used alongside the comparison section" />
+          <p class="comparison__visual-note">Compact kitchens feel product failure faster. That is why FreshNest is framed around small-home relevance, not generic bag language.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Grounded proof</p>
+          <h2>What believable small-home users would care about</h2>
+          <p>
+            These testimonials are written to remove real switching doubt, not to sound like vague praise.
+          </p>
+        </div>
+
+        <div class="testimonials__grid grid-three">
+          <article class="card testimonial-card">
+            <div class="testimonial-card__person">
+              <img src="Landing_Page_Assets/imglp4.png" alt="Portrait avatar for a Lagos renter testimonial" class="avatar" />
+              <div>
+                <strong>Teni, one-bedroom renter</strong>
+                <span>Yaba</span>
+              </div>
+            </div>
+            <p>
+              “What I noticed first was how much calmer the kitchen felt. In a small flat, once the bag starts smelling,
+              the whole place feels off. FreshNest made that easier to manage.”
+            </p>
+          </article>
+
+          <article class="card testimonial-card">
+            <div class="testimonial-card__person">
+              <img src="Landing_Page_Assets/imglp5.png" alt="Portrait avatar for a shared-flat renter testimonial" class="avatar" />
+              <div>
+                <strong>Amaka, shared-flat renter</strong>
+                <span>Surulere</span>
+              </div>
+            </div>
+            <p>
+              “In a shared flat, smell and mess become everybody’s problem fast. The Starter Pack felt like an easy first try,
+              and it honestly reduced the stress around disposal.”
+            </p>
+          </article>
+
+          <article class="card testimonial-card">
+            <div class="testimonial-card__person">
+              <img src="Landing_Page_Assets/imglp3.png" alt="Portrait avatar for a young Lagos professional testimonial" class="avatar" />
+              <div>
+                <strong>David, compact-home renter</strong>
+                <span>Lekki Phase 1</span>
+              </div>
+            </div>
+            <p>
+              “I liked that it looked premium, but the real win was practical. The bag felt more reliable, and that made
+              week-to-week restock feel more worth it.”
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section section--soft" id="faq">
+      <div class="container faq__wrap">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">FAQ</p>
+          <h2>Common first-order questions</h2>
+          <p>Keep the decision simple. Here are the main questions the page should answer before checkout.</p>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item is-open">
+            <button class="faq-question" type="button" aria-expanded="true">
+              <span>Aren’t all trash bags the same?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Not in small homes. When odor spreads faster and leaks feel worse, the difference between a weak bag and a
+                reliable one becomes much more obvious.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Why should I pay more?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                FreshNest is positioned as a practical upgrade for everyday kitchen stress. The point is fewer leaks,
+                better odor support, and a small-home fit that feels worth switching to.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Is this really made for smaller homes?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. The copy, offer system, and product framing are all built around compact kitchens, one-bedroom flats,
+                self-contain spaces, and shared-home use.
+              </p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>How does the first-order discount work?</span>
+              <span class="faq-plus" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                You can use the email capture section to request your code, then return to the Starter Pack and submit your order.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="restock section" id="monthly-restock">
+      <div class="container restock__grid">
+        <div class="restock__media card card--media">
+          <img src="Landing_Page_Assets/imglp6.png" alt="FreshNest product range visual used for the Monthly Restock section" />
+        </div>
+
+        <div class="restock__content">
+          <p class="eyebrow">After first satisfaction</p>
+          <h2>Make restock easier with the Monthly Restock</h2>
+          <p>
+            Monthly Restock sits lower on the page because it is a retention offer, not the first-visit lead. It is for
+            people who want freshness handled before it becomes urgent again.
+          </p>
+
+          <div class="offer-mini card">
+            <span class="offer-label">Monthly Restock</span>
+            <h3>6 rolls • ₦16,500 / month</h3>
+            <ul class="offer-points offer-points--compact">
+              <li>better for busy weeks and repeat buying</li>
+              <li>keeps home care from becoming last-minute stress</li>
+              <li>fits the warm-return path after first order</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bundle section section--soft" id="bundle">
+      <div class="container bundle__grid">
+        <div class="bundle__content">
+          <p class="eyebrow">Fresh Home Bundle</p>
+          <h2>Use FreshNest for reset moments, move-ins, and guest prep</h2>
+          <p>
+            Fresh Home Bundle is the add-on path. It works best when someone is already motivated by a move-in, Sunday
+            reset, visitor prep, or a week where the home needs to feel more put together.
+          </p>
+
+          <div class="offer-mini card">
+            <span class="offer-label">Fresh Home Bundle</span>
+            <h3>From ₦4,500 add-on</h3>
+            <ul class="offer-points offer-points--compact">
+              <li>works well with move-in and reset moments</li>
+              <li>supports higher basket value without confusing first visit</li>
+              <li>keeps the brand tied to real home routines</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bundle__media card card--media">
+          <img src="banner2(6).png" alt="Approved FreshNest lifestyle banner used to support the reset and visitor-ready bundle section" />
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section" id="final-cta">
+      <div class="container final-cta__grid">
+        <div class="final-cta__content">
+          <p class="eyebrow eyebrow--light">Low-friction first switch</p>
+          <h2>Your home should smell like home.</h2>
+          <p>
+            Start with the Starter Pack and see why FreshNest is framed around small-space freshness for Lagos living,
+            not just another bag on the shelf.
+          </p>
+          <a class="button button--light" href="#starter-pack">Shop the Starter Pack</a>
+        </div>
+
+        <div class="final-cta__media card">
+          <img src="Landing_Page_Assets/imglp1.png" alt="FreshNest product render used as the final call-to-action support visual" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <img src="FreshNest_logo_autotrace(3).svg" alt="FreshNest logo" class="footer__logo" />
+      <p>FreshNest is the small-space freshness brand for Lagos living.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
